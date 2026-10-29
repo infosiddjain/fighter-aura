@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { GAME, NAV_LINKS } from '@/lib/site';
@@ -7,9 +8,13 @@ import { GAME, NAV_LINKS } from '@/lib/site';
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2" aria-label={`${GAME.name} home`}>
-      <span className="grid h-9 w-9 place-items-center rounded-lg bg-gradient-to-br from-gold to-red font-display text-sm text-white shadow-[0_0_20px_rgb(255_106_43/0.5)]">
-        FA
-      </span>
+      <Image
+        src="/logo.png"
+        alt=""
+        width={36}
+        height={36}
+        className="h-9 w-9 rounded-lg shadow-[0_0_20px_rgb(255_106_43/0.5)]"
+      />
       <span className="font-display text-lg tracking-wider text-text">
         FIGHTER <span className="text-aura">AURA</span>
       </span>
