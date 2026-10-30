@@ -40,8 +40,8 @@ const SECTIONS: { title: string; body: React.ReactNode }[] = [
     title: 'Ads, analytics and third parties',
     body: (
       <>
-        The game shows no ads and uses no analytics or tracking tools. No data is sent to third
-        parties. This website also does not use cookies or tracking.
+        The game shows no ads and uses no analytics or tracking tools, and sends no data to third
+        parties. This website does not use cookies or tracking either.
       </>
     ),
   },
@@ -49,8 +49,10 @@ const SECTIONS: { title: string; body: React.ReactNode }[] = [
     title: 'Contact form and email',
     body: (
       <>
-        The contact form on this website simply opens your own email app. If you email us, we use
-        your email address and message only to reply to you, and we never share them.
+        When you send the contact form, your name, email, topic and message are delivered to our
+        inbox through Hub Form (hub-form.vercel.app), a form-delivery service. We use them only to
+        reply to you and never sell or share them with anyone else. If you email us directly, the
+        same applies. To have your messages deleted, email us and we will remove them.
       </>
     ),
   },

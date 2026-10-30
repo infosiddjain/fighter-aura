@@ -9,7 +9,7 @@ export const GAME = {
   apkUrl: '/downloads/FighterAura-v1.0.apk',
   apkSize: '61 MB',
   minAndroid: 'Android 7.0+',
-  lastUpdated: '29 October 2026',
+  lastUpdated: '30 October 2026',
 };
 
 export const DEVELOPER = {
